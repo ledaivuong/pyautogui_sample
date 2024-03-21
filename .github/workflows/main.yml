@@ -28,8 +28,7 @@ jobs:
         pip install behave --user
         pip install opencv-python --user
         pip install behave-html-pretty-formatter --user
-        pip uninstall -y pyscreeze
-        pip install pyscreeze --user
+        pip install pillow
         # Add any other dependencies you may need
 
     - name: Run PyAutoGUI script
