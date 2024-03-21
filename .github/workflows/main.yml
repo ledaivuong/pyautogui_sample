@@ -24,10 +24,10 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install pyautogui  # Install PyAutoGUI
-        pip install behave
-        pip install opencv-python
-        pip install behave-html-pretty-formatter
+        pip install pyautogui --user  # Install PyAutoGUI
+        pip install behave --user
+        pip install opencv-python --user
+        pip install behave-html-pretty-formatter --user
         # Add any other dependencies you may need
 
     - name: Run PyAutoGUI script
