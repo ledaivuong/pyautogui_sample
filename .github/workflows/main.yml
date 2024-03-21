@@ -25,7 +25,7 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install pyautogui  # Install PyAutoGUI
-        pip install behaver
+        pip install behave
         pip install opencv-python
         pip install behave-html-pretty-formatter
         pip install PyScreeze
